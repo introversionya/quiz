@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+.quiz {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.quiz-questions,
+.quiz-indicator,
+.quiz-results {
+  margin-bottom: 20px;
+}
+
+.quiz-questions-item,
+.quiz-results-item {
+  margin-bottom: 20px;
+}
+
+.quiz-questions-item__question,
+.quiz-results-item__question {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.quiz-questions-item__answers,
+.quiz-results-item__answers {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.quiz-results {
+  display: none;
+}
+
+.btn-restart {
+  display: none;
+}
+
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden {
+  display: none;
+}
+
+.btn-restart--visible,
+.results--visible {
+  display: block;
+}
+
+.answer--invalid {
+  color: red;
+}
+
+.answer--valid {
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */
